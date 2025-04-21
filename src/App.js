@@ -91,15 +91,15 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/login" element={<><Navigasibar/><Login/></>}/>
-      <Route exact path="/register" element={<><Navigasibar/><Register/></>}/>
+      {/* <Route path="/login" element={<><Navigasibar/><Login/></>}/> */}
+      {/* <Route exact path="/register" element={<><Navigasibar/><Register/></>}/> */}
       <Route path="/" element={<><Navigasibar/><LandingPage/><Footer/></>}/>
       {/* <Route path="/kat" element={<><KategoriGrid/></>}/> */}
 
-      <Route path="/belajarturtle" element={<><Navigasibar/><Tutorialpage/></>}/>
+      {/* <Route path="/belajarturtle" element={<><Navigasibar/><Tutorialpage/></>}/> */}
 
 
-      <Route path="/tutorial" element={<><Navigasibar/><Pendahuluan/></>}/>
+      {/* <Route path="/tutorial" element={<><Navigasibar/><Pendahuluan/></>}/>
       <Route path="/tutorial/leftright" element={<><Navigasibar/><LeftRight/></>}/>
       <Route path="/tutorial/forwardbackward" element={<><Navigasibar/><ForwardBackward/></>}/>
       <Route path="/tutorial/setposition" element={<><Navigasibar/><SetPosition/></>}/>
@@ -108,7 +108,7 @@ function App() {
       <Route path="/tutorial/home" element={<><Navigasibar/><SetHome/></>}/>
       <Route path="/tutorial/circle" element={<><Navigasibar/><Circle/></>}/>
       <Route path="/tutorial/dot" element={<><Navigasibar/><Dot/></>}/>
-      <Route path="/tutorial/undospeed" element={<><Navigasibar/><UndoSpeed/></>}/>
+      <Route path="/tutorial/undospeed" element={<><Navigasibar/><UndoSpeed/></>}/> */}
 
       <Route path="/challanges" element={<><Navigasibar/><Challanges/></>}/>
       {/* <Route path="/challanges/1" element={<><Navigasibar/><TantanganSatu/></>}/> */}
@@ -116,13 +116,13 @@ function App() {
       {/* <Route path="/challanges/one" element={<><Navigasibar/><ChallangeOne/></>}/> */}
       {/* <Route path="/compile" element={<><Compile/><Footer/></>}/> */}
 
-      <Route path="/susursungai" element={<><Navigasibar/><Susursungai/></>}/>
-      <Route path="/susursungai/1" element={<><Navigasibar/><Baritoriver/></>}/>
+      {/* <Route path="/susursungai" element={<><Navigasibar/><Susursungai/></>}/> */}
+      {/* <Route path="/susursungai/1" element={<><Navigasibar/><Baritoriver/></>}/> */}
 
       {/* <Route path="/texteditor" element={<><Navigasibar/><Texteditor/></>}/> */}
-      <Route path="/tampung" element={<Tampung/>}/>
+      {/* <Route path="/tampung" element={<Tampung/>}/> */}
 
-      <Route path="/cobalanding" element={<><LandingNew/></>}/>
+      {/* <Route path="/cobalanding" element={<><LandingNew/></>}/> */}
 
 
       {/* percobaan */}
@@ -178,13 +178,13 @@ function App() {
       <Route path="/texteditor" element={<><Navigasibar/><TextEditorPage/></>}/>
 
       {/* Guru */}
-      <Route path="/login-guru" element={<><NavbarGuru/><LoginGuru/></>}/>
+      {/* <Route path="/login-guru" element={<><NavbarGuru/><LoginGuru/></>}/>
 
       <Route path="/guru/dashboard" element={<><NavbarGuru/><Dashboard/></>}/>
       <Route path="/guru/datasiswa" element={<><NavbarGuru/><DataSiswa/></>}/>
       <Route path="/guru/progres-belajar" element={<><NavbarGuru/><ProgresBelajar/></>}/>
       <Route path="/guru/progres-tantangan" element={<><NavbarGuru/><ProgresTantangan/></>}/>
-      <Route path="/guru/data-nilai" element={<><NavbarGuru/><DataNilai/></>}/>
+      <Route path="/guru/data-nilai" element={<><NavbarGuru/><DataNilai/></>}/> */}
 
 
 

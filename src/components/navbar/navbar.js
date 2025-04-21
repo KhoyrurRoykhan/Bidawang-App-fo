@@ -44,7 +44,7 @@ const Navigasibar = () => {
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end" style={{color: 'white'}}>
           <Navbar.Text style={{color: 'white'}}>
-            Signed in as: <a href="#login">{nama}</a>
+            <a href="#login">{nama}</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
